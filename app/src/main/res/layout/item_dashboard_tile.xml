@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:minHeight="180dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="@drawable/ripple_tile"
+    app:cardCornerRadius="28dp"
+    app:cardElevation="0dp"
+    app:strokeWidth="0dp"
+    app:rippleColor="#80FFFFFF">
+
+    <LinearLayout
+        android:id="@+id/tileContentLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/g_tile_write"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:paddingTop="18dp"
+        android:paddingBottom="18dp">
+
+        <ImageView
+            android:id="@+id/tileIcon"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/ic_write"
+            android:tint="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/tileTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="12dp"
+            android:text="Write Today"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins_bold"
+            android:letterSpacing="0.03"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/tileSubtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="6dp"
+            android:text="One tap to capture today"
+            android:textColor="#F0FFFFFF"
+            android:textSize="13sp"
+            android:fontFamily="@font/poppins_regular"
+            android:letterSpacing="0.02"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:lineSpacingExtra="2dp" />
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
+
