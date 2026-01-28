@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/background_light"
     tools:context=".activities.SettingsActivity">
 
     <androidx.core.widget.NestedScrollView
@@ -14,51 +15,72 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="20dp"
+            android:padding="24dp"
             android:paddingTop="72dp">
-            
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/settings"
-                android:layout_marginTop="16dp"
                 android:textColor="@color/primary"
                 android:textSize="28sp"
                 android:textStyle="bold"
                 android:fontFamily="@font/poppins_bold"
-                android:letterSpacing="0.02"
                 android:layout_marginBottom="32dp" />
 
-            <com.google.android.material.switchmaterial.SwitchMaterial
-                android:id="@+id/lockPastSwitch"
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/lock_past_entries"
-                android:fontFamily="@font/poppins_regular" />
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="2dp"
+                android:clickable="true"
+                android:focusable="true">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="48dp"
-                android:layout_marginTop="4dp"
-                android:layout_marginBottom="24dp"
-                android:text="@string/lock_past_entries_desc"
-                android:textSize="13sp"
-                android:textColor="@color/text_muted"
-                android:fontFamily="@font/poppins_regular" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="20dp">
 
-            <com.google.android.material.button.MaterialButton
-                android:id="@+id/resetButton"
-                style="@style/PinkButtonStyle"
+                    <TextView
+                        android:id="@+id/themeText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Theme: Orange Light"
+                        android:textColor="@color/text_dark"
+                        android:textSize="16sp"
+                        android:fontFamily="@font/poppins_regular" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="24dp"
-                android:text="@string/reset_all_data"
-                app:backgroundTint="@color/danger" />
+                app:cardCornerRadius="16dp"
+                app:cardElevation="2dp"
+                android:clickable="true"
+                android:focusable="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <TextView
+                        android:id="@+id/resetDataText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/reset_data"
+                        android:textColor="@color/danger"
+                        android:textSize="16sp"
+                        android:fontFamily="@font/poppins_regular" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
 
         </LinearLayout>
 
     </androidx.core.widget.NestedScrollView>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
-

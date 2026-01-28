@@ -1,122 +1,108 @@
 <resources>
-    <string name="app_name">Quick Diary</string>
+    <string name="app_name">StudyFlow</string>
     
     <!-- Dashboard -->
-    <string name="write_today">Write Today</string>
-    <string name="write_today_subtitle">One tap to capture today</string>
-    <string name="timeline">Timeline</string>
-    <string name="timeline_subtitle">Browse past entries fast</string>
-    <string name="calendar">Calendar</string>
-    <string name="calendar_subtitle">Jump to any day</string>
-    <string name="mood_checkin">Mood Check-in</string>
-    <string name="mood_checkin_subtitle">Track how you feel daily</string>
-    <string name="ideas_vault">Ideas Vault</string>
-    <string name="ideas_vault_subtitle">Prompts to write instantly</string>
-    <string name="secure_diary">Secure Diary</string>
-    <string name="secure_diary_subtitle">PIN lock your notes</string>
-    <string name="export_backup">Export &amp; Backup</string>
-    <string name="export_backup_subtitle">Save as TXT/PDF + backup</string>
+    <string name="today_plan">Today Plan</string>
+    <string name="today_plan_subtitle">Your study schedule</string>
+    <string name="subjects">Subjects</string>
+    <string name="subjects_subtitle">Manage your subjects</string>
+    <string name="study_timer">Study Timer</string>
+    <string name="study_timer_subtitle">Focus and track time</string>
+    <string name="revision_plan">Revision Plan</string>
+    <string name="revision_plan_subtitle">Spaced repetition</string>
+    <string name="exams">Exams</string>
+    <string name="exams_subtitle">Track your exams</string>
+    <string name="progress">Progress</string>
+    <string name="progress_subtitle">View your stats</string>
+    <string name="notes_vault">Notes Vault</string>
+    <string name="notes_vault_subtitle">Quick notes</string>
     <string name="settings">Settings</string>
-    <string name="settings_subtitle">Preferences and options</string>
-    <string name="about_tile">About</string>
-    <string name="about_tile_subtitle">Learn about the app</string>
-    <string name="privacy_policy">Privacy Policy</string>
-    <string name="privacy_policy_tile">Privacy Policy</string>
-    <string name="privacy_policy_tile_subtitle">Your privacy matters</string>
+    <string name="settings_subtitle">Preferences</string>
     <string name="streak">Streak: %1$d days</string>
+    <string name="next_exam_days">Next exam in %1$d days</string>
     
-    <!-- Write Entry -->
-    <string name="write_entry">Write Entry</string>
-    <string name="done">Done</string>
-    <string name="word_count">Words: %1$d</string>
-    <string name="last_saved">Last saved: %1$s</string>
-    <string name="tag_work">Work</string>
-    <string name="tag_study">Study</string>
-    <string name="tag_personal">Personal</string>
-    <string name="tag_ideas">Ideas</string>
-    <string name="tag_health">Health</string>
-    <string name="entry_saved">Entry saved</string>
-    <string name="entry_saved_error">Error saving entry</string>
+    <!-- Subjects -->
+    <string name="add_subject">Add Subject</string>
+    <string name="subject_name">Subject Name</string>
+    <string name="weekly_goal">Weekly Goal (hours)</string>
+    <string name="no_subjects">No subjects yet</string>
+    <string name="no_subjects_message">Add your first subject to get started</string>
+    <string name="chapters">Chapters</string>
+    <string name="add_chapter">Add Chapter</string>
+    <string name="chapter_title">Chapter Title</string>
+    <string name="difficulty">Difficulty</string>
+    <string name="difficulty_easy">Easy</string>
+    <string name="difficulty_medium">Medium</string>
+    <string name="difficulty_hard">Hard</string>
+    <string name="status">Status</string>
+    <string name="status_not_started">Not Started</string>
+    <string name="status_in_progress">In Progress</string>
+    <string name="status_done">Done</string>
+    <string name="mark_done">Mark Done</string>
+    <string name="schedule_revision">Schedule Revision</string>
     
-    <!-- View Entry -->
-    <string name="view_entry">View Entry</string>
-    <string name="copy">Copy</string>
-    <string name="share">Share</string>
-    <string name="text_copied">Text copied to clipboard</string>
+    <!-- Study Timer -->
+    <string name="start_study">Start Study</string>
+    <string name="select_subject">Select Subject</string>
+    <string name="select_chapter">Select Chapter (Optional)</string>
+    <string name="session_type">Session Type</string>
+    <string name="focus">Focus</string>
+    <string name="revision">Revision</string>
+    <string name="practice">Practice</string>
+    <string name="quick_note">Quick Note</string>
+    <string name="end_session">End Session</string>
+    <string name="session_summary">Session Summary</string>
+    <string name="duration">Duration</string>
+    <string name="minutes">%1$d minutes</string>
     
-    <!-- Timeline -->
-    <string name="search_entries">Search entries…</string>
-    <string name="no_entries">No entries yet</string>
-    <string name="no_entries_message">Start writing to see your entries here</string>
-    <string name="no_search_results">No results found</string>
+    <!-- Revision Plan -->
+    <string name="due_today">Due Today</string>
+    <string name="upcoming">Upcoming</string>
+    <string name="revised">Revised</string>
+    <string name="snooze">Snooze</string>
+    <string name="no_revisions_due">No revisions due</string>
     
-    <!-- Calendar -->
-    <string name="no_entry_for_day">No entry for this day</string>
-    <string name="open_entry">Open</string>
-    <string name="write_today_button">Write Today</string>
+    <!-- Exams -->
+    <string name="add_exam">Add Exam</string>
+    <string name="exam_name">Exam Name</string>
+    <string name="exam_date">Exam Date</string>
+    <string name="days_until">%1$d days until exam</string>
+    <string name="chapters_to_finish">Chapters to Finish</string>
+    <string name="recommended_daily">Recommended Daily: %1$d min</string>
+    <string name="no_exams">No exams scheduled</string>
     
-    <!-- Mood -->
-    <string name="mood_great">Great</string>
-    <string name="mood_good">Good</string>
-    <string name="mood_okay">Okay</string>
-    <string name="mood_bad">Bad</string>
-    <string name="mood_awful">Awful</string>
-    <string name="mood_note_hint">Add a note (optional)</string>
-    <string name="mood_saved">Mood saved</string>
-    <string name="weekly_summary">Weekly Summary</string>
+    <!-- Progress -->
+    <string name="weekly_study_time">Weekly Study Time</string>
+    <string name="subject_distribution">Subject Distribution</string>
+    <string name="total_sessions">Total Sessions</string>
+    <string name="completion_percentage">Completion: %1$d%%</string>
     
-    <!-- Prompts -->
-    <string name="prompts">Prompts</string>
-    <string name="generate_prompt">Generate Prompt</string>
-    <string name="use_this_prompt">Use this Prompt</string>
-    <string name="favorite_prompt">Favorite Prompt</string>
-    <string name="favorites">Favorites</string>
-    <string name="prompt_added_to_favorites">Prompt added to favorites</string>
-    
-    <!-- PIN Lock -->
-    <string name="pin_lock">PIN Lock</string>
-    <string name="enable_pin">Enable PIN</string>
-    <string name="disable_pin">Disable PIN</string>
-    <string name="set_pin">Set PIN</string>
-    <string name="change_pin">Change PIN</string>
-    <string name="enter_pin">Enter PIN</string>
-    <string name="confirm_pin">Confirm PIN</string>
-    <string name="pin_mismatch">PINs do not match</string>
-    <string name="pin_incorrect">Incorrect PIN</string>
-    <string name="pin_set">PIN set successfully</string>
-    <string name="pin_disabled">PIN disabled</string>
-    <string name="pin_enabled">PIN enabled</string>
-    
-    <!-- Export -->
-    <string name="export">Export</string>
-    <string name="export_txt">Export to TXT</string>
-    <string name="export_pdf">Export to PDF</string>
-    <string name="backup">Backup</string>
-    <string name="restore">Restore</string>
-    <string name="export_success">Export successful: %1$s</string>
-    <string name="export_error">Export failed</string>
-    <string name="backup_success">Backup created successfully</string>
-    <string name="backup_error">Backup failed</string>
-    <string name="restore_success">Data restored successfully</string>
-    <string name="restore_error">Restore failed</string>
+    <!-- Notes Vault -->
+    <string name="add_note">Add Note</string>
+    <string name="search_notes">Search notes…</string>
+    <string name="pin_note">Pin</string>
+    <string name="unpin_note">Unpin</string>
+    <string name="no_notes">No notes yet</string>
     
     <!-- Settings -->
     <string name="theme">Theme</string>
-    <string name="theme_light">Light</string>
-    <string name="theme_dark">Dark</string>
+    <string name="theme_light">Orange Light</string>
+    <string name="theme_dark">Orange Dark</string>
     <string name="theme_system">System</string>
-    <string name="font_size">Font Size</string>
-    <string name="font_small">Small</string>
-    <string name="font_medium">Medium</string>
-    <string name="font_large">Large</string>
-    <string name="lock_past_entries">Lock Past Entries</string>
-    <string name="lock_past_entries_desc">Prevent editing entries from previous days</string>
-    <string name="reset_all_data">Reset All Data</string>
+    <string name="default_session_lengths">Default Session Lengths</string>
+    <string name="focus_minutes">Focus (minutes)</string>
+    <string name="revision_minutes">Revision (minutes)</string>
+    <string name="reset_data">Reset All Data</string>
     <string name="reset_confirm">Are you sure you want to delete all data? This cannot be undone.</string>
     <string name="reset_success">All data deleted</string>
-    <string name="about">About Quick Diary</string>
-    <string name="about_content">Quick Diary is a minimal daily journal app designed to help you capture your thoughts, feelings, and experiences.\n\nFeatures:\n• Simple and intuitive interface\n• Daily mood tracking\n• Writing prompts to spark inspiration\n• Calendar view to navigate your entries\n• Secure PIN protection\n• Export and backup your entries\n• Timeline view to browse past entries\n\nQuick Diary is built with privacy in mind. All your data is stored locally on your device, and you have full control over your information.</string>
-    <string name="privacy_policy_content">Privacy Policy\n\nLast Updated: January 2026\n\nAt Quick Diary, we take your privacy seriously. This privacy policy explains how we handle your data.\n\nData Storage\n• All your diary entries, moods, and app data are stored locally on your device\n• We do not collect, transmit, or store any of your personal information on external servers\n• Your data never leaves your device unless you explicitly choose to export or backup it\n\nNo Internet Connection Required\n• Quick Diary works completely offline\n• We do not require an internet connection to function\n• This ensures your private thoughts remain private\n\nNo Tracking or Analytics\n• We do not use any analytics, tracking, or advertising services\n• We do not collect usage statistics or user behavior data\n• Your app usage remains completely private\n\nExport and Backup\n• Export and backup features are optional and only work when you explicitly choose to use them\n• You have full control over when and where your data is exported\n• Exported files are created only on your device or in locations you specify\n\nData Deletion\n• You can delete all your data at any time from the Settings menu\n• Deletion is permanent and cannot be undone\n• We do not retain any copies of your deleted data\n\nThird-Party Services\n• Quick Diary does not integrate with any third-party services\n• We do not share your data with any external parties\n• Your information remains exclusively on your device\n\nChanges to This Policy\n• We may update this privacy policy from time to time\n• Any changes will be reflected in the app\n• Continued use of the app after changes constitutes acceptance of the updated policy\n\nContact\n• If you have any questions about this privacy policy, please review the app settings\n\nYour privacy is our priority. Quick Diary is designed to be a safe space for your thoughts and reflections.</string>
+    <string name="about">About StudyFlow</string>
+    <string name="about_tile">About</string>
+    <string name="about_tile_subtitle">Learn about the app</string>
+    <string name="about_content">StudyFlow is a smart study planner that helps you plan exams, schedule study sessions, and revise intelligently using spaced repetition.\n\nFeatures:\n• Subject and chapter management\n• Pomodoro and custom study timers\n• Spaced repetition revision planning\n• Exam tracking with countdown\n• Progress charts and statistics\n• Quick notes vault\n• Fully offline\n\nStudyFlow helps you study smarter, not harder.</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="privacy_policy_tile">Privacy Policy</string>
+    <string name="privacy_policy_tile_subtitle">Your privacy matters</string>
+    <string name="privacy_policy_content">Privacy Policy\n\nLast Updated: January 2026\n\nAt StudyFlow, we take your privacy seriously. This privacy policy explains how we handle your data.\n\nData Storage\n• All your study data, subjects, chapters, sessions, and notes are stored locally on your device\n• We do not collect, transmit, or store any of your personal information on external servers\n• Your data never leaves your device unless you explicitly choose to export or backup it\n\nNo Internet Connection Required\n• StudyFlow works completely offline\n• We do not require an internet connection to function\n• This ensures your study data remains private\n\nNo Tracking or Analytics\n• We do not use any analytics, tracking, or advertising services\n• We do not collect usage statistics or user behavior data\n• Your app usage remains completely private\n\nExport and Backup\n• Export and backup features are optional and only work when you explicitly choose to use them\n• You have full control over when and where your data is exported\n• Exported files are created only on your device or in locations you specify\n\nData Deletion\n• You can delete all your data at any time from the Settings menu\n• Deletion is permanent and cannot be undone\n• We do not retain any copies of your deleted data\n\nThird-Party Services\n• StudyFlow does not integrate with any third-party services\n• We do not share your data with any external parties\n• Your information remains exclusively on your device\n\nChanges to This Policy\n• We may update this privacy policy from time to time\n• Any changes will be reflected in the app\n• Continued use of the app after changes constitutes acceptance of the updated policy\n\nContact\n• If you have any questions about this privacy policy, please review the app settings\n\nYour privacy is our priority. StudyFlow is designed to be a safe space for your study planning.</string>
     
     <!-- General -->
     <string name="cancel">Cancel</string>
@@ -124,4 +110,5 @@
     <string name="delete">Delete</string>
     <string name="save">Save</string>
     <string name="loading">Loading…</string>
+    <string name="edit">Edit</string>
 </resources>

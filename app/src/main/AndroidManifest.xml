@@ -10,7 +10,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.QuickDiary">
+        android:theme="@style/Theme.StudyFlow">
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -20,34 +20,34 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".activities.HomeActivity"
+            android:name=".activities.DashboardActivity"
             android:exported="false" />
         <activity
-            android:name=".activities.WriteEntryActivity"
+            android:name=".activities.TodayPlanActivity"
             android:exported="false" />
         <activity
-            android:name=".activities.ViewEntryActivity"
+            android:name=".activities.SubjectsActivity"
             android:exported="false" />
         <activity
-            android:name=".activities.TimelineActivity"
+            android:name=".activities.StudyTimerActivity"
             android:exported="false" />
         <activity
-            android:name=".activities.CalendarActivity"
+            android:name=".activities.RevisionPlanActivity"
             android:exported="false" />
         <activity
-            android:name=".activities.MoodActivity"
+            android:name=".activities.ExamsActivity"
             android:exported="false" />
         <activity
-            android:name=".activities.PromptsActivity"
+            android:name=".activities.ProgressActivity"
             android:exported="false" />
         <activity
-            android:name=".activities.ExportActivity"
+            android:name=".activities.NotesVaultActivity"
             android:exported="false" />
         <activity
             android:name=".activities.SettingsActivity"
             android:exported="false" />
         <activity
-            android:name=".activities.PinLockActivity"
+            android:name=".activities.SubjectDetailActivity"
             android:exported="false" />
         <activity
             android:name=".activities.AboutActivity"

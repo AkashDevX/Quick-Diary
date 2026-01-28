@@ -3,7 +3,7 @@
     <style name="PinkButtonStyle" parent="Widget.Material3.Button">
         <item name="android:textSize">16sp</item>
         <item name="android:textStyle">bold</item>
-        <item name="android:textColor">@color/text_on_pink</item>
+        <item name="android:textColor">@color/text_on_orange</item>
         <item name="backgroundTint">@color/primary</item>
         <item name="cornerRadius">18dp</item>
         <item name="android:paddingStart">24dp</item>

@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Quick Diary"
+rootProject.name = "StudyFlow"
 include(":app")
  

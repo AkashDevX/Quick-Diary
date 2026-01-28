@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.selfnoteapp.quickdiary"
+    namespace = "com.kanbanexam.studyflow"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.selfnoteapp.quickdiary"
+        applicationId = "com.kanbanexam.studyflow"
         minSdk = 23
         targetSdk = 36
         versionCode = 1
